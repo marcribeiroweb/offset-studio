@@ -1,6 +1,6 @@
 # Offset Studio
 
-A responsive, multi-page website for a creative studio. Built with HTML and CSS, with an emphasis on typography, colour, motion and simple navigation.
+A responsive, multi-page website for a creative studio. Built with HTML and CSS, with an emphasis on typography, color, motion and straightforward navigation.
 
 **Live site:** https://marcribeiroweb.github.io/offset-studio/
 
@@ -11,7 +11,7 @@ A responsive, multi-page website for a creative studio. Built with HTML and CSS,
 - **Services** — overview of services and a project-stage selector
 - **Studio** — studio information and frequently asked questions
 - **Contact** — enquiry form layout
-- **Looma / FWD Finance** — individual project pages with image-free, CSS-based galleries
+- **Looma / FWD Finance** — project case studies with CSS-based galleries
 
 ## Features
 
@@ -42,7 +42,7 @@ offset-studio/
 
 ## Notes
 
-The site uses HTML and CSS only. Interactive elements such as the filters, navigation menu and galleries are handled with native HTML controls and CSS.
+The pages are organized as standalone HTML files, with shared colours and layout rules in one stylesheet. The filters, mobile menu and galleries use native HTML controls and CSS.
 
 The appearance toggle resets when moving between pages. The contact form is a front-end example with a placeholder email destination; it isn't connected to a form-processing service. Portfolio projects and studio details are concept content.
 

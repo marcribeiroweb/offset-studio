@@ -1,9 +1,105 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f7f2"><meta name="description" content="Explore a validated HTML-only contact form and CSS FAQ accordions."><title>Contact · Offset Studio</title><link rel="stylesheet" href="style.css"></head><body class="page-contact"><a href="#main" class="skip-link">Skip to content</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f7f2">
+<meta name="description" content="Contact page layout with an enquiry form and a few common questions.">
+<title>Contact · Offset Studio</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="page-contact"><a href="#main" class="skip-link">Skip to content</a>
 <input type="checkbox" class="visually-hidden" id="color-mode" aria-label="Toggle dark appearance">
-<header class="site-header"><div class="container header-inner">
+<header class="site-header">
+<div class="container header-inner">
 <a class="brand" href="index.html" aria-label="Offset Studio home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>offset<span class="brand-period">.</span></a>
 <nav class="main-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="work.html">Work</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a href="contact.html" aria-current="page">Contact</a></nav>
+
 <div class="header-actions"><label for="color-mode" class="theme-label" title="Toggle appearance"><span class="sun-symbol" aria-hidden="true">◐</span><span class="sr-only">Toggle light and dark mode</span></label><a href="contact.html" class="pill pill-dark header-cta">Let's talk <span aria-hidden="true">↗</span></a>
-<details class="mobile-nav"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="work.html">Work</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a href="contact.html" aria-current="page">Contact</a></nav></details></div></div></header><main id="main"><section class="page-intro intro-contact"><div class="container"><span class="eyebrow">Your next idea starts here</span><h1>Have a project?<br><em>Say hello.</em></h1><p>Tell us a little about what you're dreaming up. This is a front-end demonstration, not a staffed business.</p></div></section>
-<section class="section contact-section"><div class="container contact-grid"><div class="contact-aside"><div class="contact-graphic"><span>IDEAS<br>WELCOME<span>.</span></span><i>✳</i></div><div class="contact-email"><span class="eyebrow">Email (example address)</span><a href="mailto:hello@example.com">hello@example.com ↗</a><p>Replace with your own address before publishing a real business site.</p></div></div><div class="contact-form-wrap"><div class="form-header"><h2>Tell us <em>everything.</em></h2><p>Fields marked * are required. Your browser checks them before opening your email app.</p></div><form action="mailto:hello@example.com?subject=Website%20demo%20enquiry" method="post" enctype="text/plain" class="contact-form"><div class="form-row"><label>Your name *<input name="Name" type="text" placeholder="Alex Taylor" autocomplete="name" required minlength="2"></label><label>Your email *<input name="Email" type="email" placeholder="alex@example.com" autocomplete="email" required></label></div><fieldset><legend>What do you need? *</legend><div class="choice-grid"><label><input name="Project type" type="radio" value="Brand identity" required><span>Brand identity</span></label><label><input name="Project type" type="radio" value="Website"><span>A website</span></label><label><input name="Project type" type="radio" value="Both"><span>A bit of both</span></label><label><input name="Project type" type="radio" value="Other"><span>Something else</span></label></div></fieldset><label>What's your rough budget?<select name="Budget" required><option value="" selected disabled>Select a range</option><option>Under $5,000</option><option>$5,000–$15,000</option><option>$15,000–$30,000</option><option>$30,000+</option><option>Not sure yet</option></select></label><label>Tell us about your idea *<textarea name="Project details" rows="5" placeholder="What are you hoping to make?" required minlength="10"></textarea></label><div class="form-bottom"><button class="pill pill-dark" type="submit">Open email draft <span>↗</span></button><p><strong>Demo limitation:</strong> HTML/CSS alone cannot deliver submissions to an inbox. This button attempts to open your email app, and the sample address is not monitored.</p></div></form></div></div></section>
-<section class="section contact-faq"><div class="container faq-grid"><div><span class="eyebrow">Before you go</span><h2>A couple of<br><em>quick answers.</em></h2></div><div class="faq-list"><details><summary>Can I use this as my actual website? <span>+</span></summary><p>Yes, you can customise the content, branding and colours. Replace the fictional project claims and contact details before publishing.</p></details><details><summary>Will my form work on GitHub Pages? <span>+</span></summary><p>Native browser validation works. Submitting via email depends on the visitor's email app. For reliable submissions on GitHub Pages, connect a third-party form service.</p></details><details><summary>Does this require JavaScript? <span>+</span></summary><p>No. Navigation, filters, theme toggling, FAQ accordions, galleries and responsive layout all use HTML and CSS.</p></details></div></div></section></main><footer class="site-footer" id="footer"><div class="container"><div class="footer-top"><div><p class="eyebrow eyebrow-light">Have an idea in mind?</p><h2>Let's make<br><em>some noise.</em></h2></div><a href="contact.html" class="footer-orb" aria-label="Contact our studio">↗</a></div><div class="footer-bottom"><a href="index.html" class="footer-logo">offset<span>.</span></a><p>Independent design studio. Made for the curious.</p><nav aria-label="Footer navigation"><a href="work.html">Work</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a href="contact.html">Contact</a></nav><p>© 2026 Offset Studio · Fictional concept</p></div></div></footer></body></html>
+<details class="mobile-nav">
+<summary aria-label="Open navigation"><span></span><span></span></summary>
+<nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="work.html">Work</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a href="contact.html" aria-current="page">Contact</a></nav>
+</details>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="page-intro intro-contact">
+<div class="container"><span class="eyebrow">Your next idea starts here</span>
+<h1>Have a project?<br><em>Say hello.</em></h1>
+<p>Tell us what you've got in mind. Offset is a portfolio concept, so this form shows the layout rather than collecting enquiries.</p>
+</div>
+</section>
+
+<section class="section contact-section">
+<div class="container contact-grid">
+<div class="contact-aside">
+<div class="contact-graphic"><span>IDEAS<br>WELCOME<span>.</span></span><i>✳</i></div>
+<div class="contact-email"><span class="eyebrow">Email (example address)</span><a href="mailto:hello@example.com">hello@example.com ↗</a>
+<p>Replace with your own address before publishing a real business site.</p>
+</div>
+</div>
+<div class="contact-form-wrap">
+<div class="form-header">
+<h2>Tell us <em>everything.</em></h2>
+<p>Fields marked * are required. Your browser checks them before opening your email app.</p>
+</div>
+<!-- Native form validation, with a mailto placeholder until a backend is added -->
+<form action="mailto:hello@example.com?subject=Website%20demo%20enquiry" method="post" enctype="text/plain" class="contact-form">
+<div class="form-row"><label>Your name *
+<input name="Name" type="text" placeholder="Alex Taylor" autocomplete="name" required minlength="2"></label><label>Your email *
+<input name="Email" type="email" placeholder="alex@example.com" autocomplete="email" required></label></div>
+<fieldset><legend>What do you need? *</legend>
+<div class="choice-grid"><label>
+<input name="Project type" type="radio" value="Brand identity" required><span>Brand identity</span></label><label>
+<input name="Project type" type="radio" value="Website"><span>A website</span></label><label>
+<input name="Project type" type="radio" value="Both"><span>A bit of both</span></label><label>
+<input name="Project type" type="radio" value="Other"><span>Something else</span></label></div>
+</fieldset>
+<label>What's your rough budget?<select name="Budget" required><option value="" selected disabled>Select a range</option><option>Under $5,000</option><option>$5,000–$15,000</option><option>$15,000–$30,000</option><option>$30,000+</option><option>Not sure yet</option></select></label><label>Tell us about your idea *<textarea name="Project details" rows="5" placeholder="What are you hoping to make?" required minlength="10"></textarea></label>
+<div class="form-bottom"><button class="pill pill-dark" type="submit">Open email draft <span>↗</span></button>
+<p><strong>Demo limitation:</strong> HTML/CSS alone cannot deliver submissions to an inbox. This button attempts to open your email app, and the sample address is not monitored.</p>
+</div>
+</form>
+</div>
+</div>
+</section>
+
+<section class="section contact-faq">
+<div class="container faq-grid">
+<div><span class="eyebrow">Before you go</span>
+<h2>A couple of<br><em>quick answers.</em></h2>
+</div>
+<div class="faq-list">
+<details>
+<summary>Can I use this as my actual website? <span>+</span></summary>
+<p>Yes, you can customise the content, branding and colours. Replace the fictional project claims and contact details before publishing.</p>
+</details>
+<details>
+<summary>Will my form work on GitHub Pages? <span>+</span></summary>
+<p>Native browser validation works. Submitting via email depends on the visitor's email app. For reliable submissions on GitHub Pages, connect a third-party form service.</p>
+</details>
+<details>
+<summary>Does this require JavaScript? <span>+</span></summary>
+<p>No. Navigation, filters, theme toggling, FAQ accordions, galleries and responsive layout all use HTML and CSS.</p>
+</details>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer" id="footer">
+<div class="container">
+<div class="footer-top">
+<div>
+<p class="eyebrow eyebrow-light">Have an idea in mind?</p>
+<h2>Let's make<br><em>some noise.</em></h2>
+</div>
+<a href="contact.html" class="footer-orb" aria-label="Contact our studio">↗</a></div>
+<div class="footer-bottom"><a href="index.html" class="footer-logo">offset<span>.</span></a>
+<p>Independent design studio. Made for the curious.</p>
+<nav aria-label="Footer navigation"><a href="work.html">Work</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a href="contact.html">Contact</a></nav>
+<p>© 2026 Offset Studio · Fictional concept</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
